@@ -1,0 +1,82 @@
+@import "https://fonts.googleapis.com/css?family=Roboto:400,700&display=swap";
+
+:root {
+  --color-purple: #6441a5;
+  --color-white: #f8f8ff;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  border: 0;
+}
+
+body {
+  background: #000;
+  font-family: "Roboto";
+}
+
+header {
+  padding: 30px;
+  border-bottom: 1px solid var(--color-purple);
+  background: rgba(0, 0, 0, 0.6);
+}
+
+.links {
+  text-align: center;
+}
+
+.links a {
+  color: white;
+  font-size: 18px;
+  line-height: 30px;
+  margin: 0 16px;
+  text-decoration: none;
+}
+
+.links a:hover {
+  color: var(--color-purple);
+  transition: color 200ms;
+}
+
+#wrapper {
+  text-align: center;
+  padding: 32px;
+  color: var(--color-white);
+}
+
+#wrapper img {
+  border-radius: 50%;
+  border: 6px solid var(--color-white);
+  margin-bottom: 32px;
+  max-width: 300px;
+  max-height: 200px;
+  width: auto;
+  height: auto;
+}
+
+#wrapper h1 {
+  font-size: 42px;
+  line-height: 52px;
+  font-weight: bold;
+}
+
+#wrapper h2 {
+  font-size: 24px;
+  line-height: 34px;
+  font-weight: normal;
+  margin-top: 8px;
+  opacity: 0.8;
+}
+
+#wrapper ul {
+  font-size: 24px;
+  line-height: 34px;
+  font-weight: normal;
+  margin-top: 14px;
+  opacity: 0.8;
+}
+
+#links-footer a {
+  border-bottom: 1px solid var(--color-purple);
+}
